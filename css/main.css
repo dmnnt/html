@@ -1,3 +1,23 @@
 div {
-    colour:blue;
+    color:blue;
+}
+.main_link {
+    color:rgb(162, 0, 255);
+    text-decoration: none;
+}
+
+.main_link:hover {
+    color: rgb(1, 59, 9);
+    text-decoration: overline;
+    text-decoration-color: green;
+    cursor: pointer;
+}
+
+.main_link:active {
+    text-decoration: line-through;
+}
+
+.main_link:visited {
+    text-decoration: line-through;
+    color:grey;
 }
